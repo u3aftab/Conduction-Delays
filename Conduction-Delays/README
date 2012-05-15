@@ -1,0 +1,8 @@
+Constant and varying (conduction/time) delays are added to a continuous attractor neural network -- a model of head direction in Matlab.
+Background information and auxiliary functions were taken from chapter 16 of a text by Thomas Trappenberg that is available here: http://web.cs.dal.ca/~tt/CSCI650804/cann/16%20Trappenberg.pdf (This is also a good source for prerequisite details).
+
+The scripts Path_int_X, where X is one of {Exponential_Input_Profile, Input_profile, Skewed_Weight}, run different inputs to the system of DEs.
+The 4 other auxiliary scripts (functions) are directly from the Trappenberg text above.
+
+The scripts for the numerical solvers, the workhorses, are found in the Path_int_X files, which were modified from the Trappenberg text.
+These are commented to make them easier to understand.
